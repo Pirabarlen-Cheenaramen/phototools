@@ -8,11 +8,11 @@ uploader is handled in upload_image/views.py
 
 You can now add further image functions to it and  link it via uploader, or make a new app to make an interface.
 ## Installation
-`cd phototools`
-`pip3 install -r requirements.txt`
-`cd phototools`
-`python3 manage.py runserver 8080`
-open up your browser and go to http://127.0.0.1:8080
+**** `cd phototools`
+* `pip3 install -r requirements.txt`
+* `cd phototools`
+* `python3 manage.py runserver 8080`
+* open up your browser and go to http://127.0.0.1:8080
 
 ##TODO:
 1. add a REST api for image details 2.
