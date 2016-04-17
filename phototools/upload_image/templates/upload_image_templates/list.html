@@ -1,0 +1,16 @@
+<!-- haven't css'ed in here-->
+<input type=button value="Go back" onClick="javascript:history.go(-1);"><br>
+{% block head_title %}
+<br/><br/>Image has been converted to grayscale <br/><br/>
+{% endblock head_title %}
+
+{% block content %}
+
+<div class='col-sm-6 col-sm-offset-3'>
+    {% if instance.image %}
+        <img src='{{ instance.image.url }}' class='img-responsive'/>
+    {% endif %}
+    </br>
+</div>
+
+{% endblock content %}
