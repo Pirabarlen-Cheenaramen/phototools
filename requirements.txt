@@ -11,7 +11,7 @@ dirspec==13.10
 fbmessenger==0.2.0
 friends==0.1
 html5lib==0.999
-httplib2==0.8
+httplib2==0.19.0
 language-selector==0.1
 louis==2.5.3
 lxml==3.3.3
