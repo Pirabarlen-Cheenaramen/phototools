@@ -10,7 +10,7 @@ defer==1.0.6
 dirspec==13.10
 fbmessenger==0.2.0
 friends==0.1
-html5lib==0.999
+html5lib==0.99999999
 httplib2==0.8
 language-selector==0.1
 louis==2.5.3
